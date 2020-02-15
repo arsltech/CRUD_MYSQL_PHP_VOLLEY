@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Edit_Activity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:id="@+id/ed_id"
+        android:textSize="20sp"
+        android:enabled="false"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/ed_name"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/ed_email"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact"
+        android:id="@+id/ed_contact"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/ed_address"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Update"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:onClick="btn_updateData"
+        />
+
+</LinearLayout>
